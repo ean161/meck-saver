@@ -99,7 +99,7 @@ const styles = StyleSheet.create({
     },
     val: {
         fontWeight: 700,
-        fontSize: 16,
+        fontSize: 14,
         color: DARK_COLOR,
     },
     piggy: {
