@@ -60,8 +60,8 @@ const DARK_COLOR = "#000000";
 const GRAY_COLOR = "#f2f2f291";
 const GRAY_MID_COLOR = "#d9d9d9b1";
 const GRAY_DARK_COLOR = "#8e8e93";
-const BLUE_COLOR = "#0084FE";
-const RED_COLOR = "#FE294D";
+const BLUE_COLOR = "#004d94ff";
+const RED_COLOR = "#c70000c0";
 const RED_DARK_COLOR = "#f1072eff";
 const RED_FADED_COLOR = "#fe294c13";
 const GREEN_COLOR = "#5AD439";
@@ -80,7 +80,7 @@ const styles = StyleSheet.create({
         margin: 5,
         height: 35,
         width: 50,
-        borderRadius: 10,
+        borderRadius: 3,
         textAlign: "center",
         alignItems: "center",
         justifyContent: "center",
@@ -90,11 +90,12 @@ const styles = StyleSheet.create({
         margin: 5,
         height: 35,
         width: 50,
-        borderRadius: 10,
+        borderRadius: 3,
         textAlign: "center",
         alignItems: "center",
         justifyContent: "center",
         backgroundColor: LIGHT_COLOR,
+        backgroundColor: RED_COLOR,
     },
     val: {
         fontWeight: 700,
@@ -106,11 +107,8 @@ const styles = StyleSheet.create({
         height: 30,
         resizeMode: "cover",
     },
-    done_tag: {
-        backgroundColor: DARK_COLOR,
-    },
     last_tag: {
-        backgroundColor: "#f7e491c0",
+        backgroundColor: BLUE_COLOR,
     }
 });
 
